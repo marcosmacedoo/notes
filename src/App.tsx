@@ -21,9 +21,7 @@ function App() {
       <section className="grid grid-cols-3 gap-6 auto-rows-[250px]">
         <NewNoteCard />
 
-        <NoteCard />
-
-        <NoteCard />
+        <NoteCard note={{ content: 'Hello World', date: new Date(2024, 1, 2) }} />
       </section>
     </main>
   )
